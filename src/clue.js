@@ -147,15 +147,13 @@ const suspectsArray = [
  function revealMystery() {
   let envelope = {
     suspect: { firstName: 'Victor', lastName: 'Plum' },
-      weapon: { name: 'poison' },
-      room: { name: 'Billiard Room' }
+    weapon: { name: 'poison' },
+    room: { name: 'Billiard Room' }
   }
   let message = `${envelope.suspect.firstName} ${envelope.suspect.lastName} killed Mr. Boddy using the ${envelope.weapon.name} in the ${envelope.room.name}!`;
 
   return message
 }
-
-
 
 // The following is required to make unit tests work.
 /* Environment setup. Do not modify the below code. */
